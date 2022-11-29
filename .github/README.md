@@ -12,7 +12,12 @@ Patches for PlayStation 4 Games.
 - Open [GoldHEN Cheat Manager](https://github.com/GoldHEN/GoldHEN_Cheat_Manager/releases/latest) and click Update.
 - If the patches was installed correctly from Internal HDD, you should see the following message:
 
+<details>
+<summary>Screenshot (Click to Expand)</summary>
+
 ![](https://user-images.githubusercontent.com/37698908/204118853-8b34d4d5-e213-44a3-95a4-9462d419f2d2.png)
+
+</details>
 
 #### Manual Installation (Offline via USB)
 
@@ -21,7 +26,12 @@ Patches for PlayStation 4 Games.
 - Open [GoldHEN Cheat Manager](https://github.com/GoldHEN/GoldHEN_Cheat_Manager/releases/latest) and click Update.
 - If the patches was installed correctly from USB, you should see the following message:
 
+<details>
+<summary>Screenshot (Click to Expand)</summary>
+
 ![](https://user-images.githubusercontent.com/37698908/204118861-ae3fa9c1-a429-4bf9-a357-55a8e7e3df77.png)
+
+</details>
 
 #### Easy Installation
 - Patches can be configured, install/update via:
