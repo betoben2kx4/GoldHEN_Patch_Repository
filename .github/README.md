@@ -36,7 +36,7 @@ Patches for PlayStation 4 Games.
 #### Easy Installation
 - Patches can be configured, install/update via:
   - [GoldHEN Cheat Manager](https://github.com/GoldHEN/GoldHEN_Cheat_Manager/releases/latest)
-  - Itemzflow Game Manager
+  - [Itemzflow Game Manager](https://github.com/LightningMods/Itemzflow)
 - Run your game.
 
 ### Storage
@@ -107,8 +107,8 @@ Set base address to `0x00400000` when importing binaries for consistency with PS
     {
       "title": "Example Game Title",
       "app_titleid": [
-        "CUSA00000",
-        "CUSA00001"
+        "EXAMPLE01",
+        "EXAMPLE02"
       ],
       "app_ver": "00.34",
       "app_elf": "eboot.bin",
@@ -117,7 +117,8 @@ Set base address to `0x00400000` when importing binaries for consistency with PS
       "author": "Example Author",
       "note": "Example Note",
       "patch_list": [
-        { "type": "bytes", "addr": "0x00000000", "value": "0102030405060708" },
+        { "comment": "This is a code comment, improves code readability." },
+        { "type": "bytes", "addr": "0x00000000", "value": "0102030405060708", "comment": "Code comment at end of line is also supported." },
         { "type": "utf8", "addr": "0x00000000", "value": "Hello World" }
       ]
     }
